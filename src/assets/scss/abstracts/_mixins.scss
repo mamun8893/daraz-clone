@@ -236,17 +236,17 @@
 }
 
 @mixin bd-radius2($val, $val2, $val3, $val4) {
-    -webkit-border-radius: $val,
-        $val2,
-        $val3,
+    -webkit-border-radius: $val
+        $val2
+        $val3
         $val4;
-    -moz-border-radius: $val,
-        $val2,
-        $val3,
+    -moz-border-radius: $val
+        $val2
+        $val3
         $val4;
-    border-radius: $val,
-        $val2,
-        $val3,
+    border-radius: $val
+        $val2
+        $val3
         $val4;
 }
 
