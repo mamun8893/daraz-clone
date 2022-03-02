@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./common/Header";
+import Main from "./common/Main";
 
 const TheLayout = () => {
   return (
@@ -9,8 +10,7 @@ const TheLayout = () => {
         <Header />
       </div>
       {/* Main  */}
-      <main></main>
-
+      <Main />
       {/* Footer  */}
       <div className="footer-warp"></div>
     </div>
